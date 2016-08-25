@@ -1,2 +1,3 @@
-# node-dev-with-docker-compose
-Sample solution with two node applications running in containers with docker compose
+# Node development within containers
+
+This is a sample solution showing how you can do Node development within docker containers.
