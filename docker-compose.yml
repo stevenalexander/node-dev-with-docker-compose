@@ -2,9 +2,13 @@ version: '2'
 services:
   app1:
     build: ./app1
+    volumes:
+     - "./app1:/usr/src/app"
     ports:
      - "3000:3000"
   app2:
     build: ./app2
+    volumes:
+     - "./app2:/usr/src/app"
     ports:
      - "3001:3001"
